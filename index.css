@@ -1,0 +1,37 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#flex {
+    display:flex;
+    position:relative;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    margin-bottom:10px;
+}
+
+#name, #slogan {
+    align-self:center;
+}
+#location {
+    text-align:left;
+    margin-top:10px;
+    margin-right:10px;
+    align-self:center;
+}
+#navbar {
+    text-align:center;
+    display:flex;
+    position:relative;
+    align-items:flex-start;
+    justify-content:space-evenly;
+}
+.links {
+    font-weight: bold;
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+.links:hover {
+    color:grey;
+}
