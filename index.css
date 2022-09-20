@@ -12,7 +12,7 @@ body {
 
 #name {
     align-self:center;
-    margin-left:1rem
+    margin-left:1rem;
 }
 #location {
     margin-top:1rem;
@@ -26,30 +26,55 @@ body {
     align-items:flex-start;
     justify-content:space-evenly;
 }
+#signIn {
+    display:grid;
+    position:relative;
+    align-items:flex-start;
+    align-self:center;
+}
+#logIn, #signUp {
+    text-decoration:none;
+    color:black;
+}
+#logIn:hover, #signUp:hover {
+    color:#8E614A;
+}
 .links {
     font-weight: bold;
     text-decoration:none;
     color:black;
     font-size:18px;
-    transition:color 0.5s ease-in-out;
+    transition:color 0.3s ease-in-out;
 }
 .links:hover {
-    color:grey;
+    color:#8E614A;
 }
 #slogan {
     position:relative;
     display:block;
     text-align: center;
     margin-bottom:1rem;
+    align-self:center;
+}
+#intro {
+    display:flex;
+    justify-content:space-around;
 }
 .favorite-item {
-    display:block;
+    display:grid;
     position:relative;
     background-color:#8E614A;
-    box-sizing:content-box;
+    box-sizing:border-box;
     box-sizing:inherit;
     margin-left:auto!important;
     margin-right:auto!important;
     margin-top:1rem;
     margin-bottom:1rem;
+    max-width:1500px;
+    justify-content:space-around;
+    color:white;
+}
+#blackCoffee, #espressoMachine {
+    max-width:100%;
+    height: auto;
 }
