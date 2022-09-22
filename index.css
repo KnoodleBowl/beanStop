@@ -67,18 +67,36 @@ body {
     justify-content:space-between;
     color:white;
 }
-#blackCoffee, #espressoMachine {
+.itemImage {
     max-width:100%;
     height:auto;
 }
 .imag {
     width:50%;
     height:auto;
+    text-align:center;
 }
 .description {
     width:50%;
     align-self:center;
     text-align:center;
+}
+.description p {
+    font-size:larger;
+}
+.description button {
+    background-color:#8E614A;
+    color:white;
+    border-radius:30px;
+    box-shadow: none;
+    border-style:solid;
+    border-color:white;
+    transition:0.3s ease-in-out;
+    padding:10px;
+}
+.description button:hover {
+    background-color:rgba(214, 214, 214, 0.315);
+
 }
 @media (max-width: 770px) {
     .favorite-item {
@@ -90,12 +108,12 @@ body {
         width:100%;
         margin-bottom:1rem;
     }
-    #espressoMachine {
-        width:fit-content;
-    }
     .description {
         width:100%;
         text-align:center;
         padding-bottom:1rem;
     }
+}
+#footer {
+
 }
