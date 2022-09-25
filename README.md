@@ -1,5 +1,5 @@
 # beanStop
- Portfolio website about an imaginary coffee shop. The name of the shop is Bean Stop. Single-page website.
+ Portfolio website about a fiction coffee shop. The name of the shop is Bean Stop. Single-page website.
  Busting with activities with their world famous black coffee, iced espresso, and cappuccino. 
  The owner wants a website to display customer's favorites and provide a platform to reward points to customers. He wants it to 
  be user-friendly to mobile and pc users. 

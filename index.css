@@ -1,6 +1,7 @@
 /*Website as a Whole*/
 body {
     overflow-x:auto;
+    scroll-behavior: smooth;
 }
 #head, #navbar, #intro, .favorite-item {
     display:flex;
